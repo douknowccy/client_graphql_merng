@@ -19,7 +19,7 @@ export type PostType = {
       }
     | []
   >;
-  likes?: Array<{ id?: string; createdAt?: string; username: string } | []>;
+  likes?: Array<{ id?: string; creaßtedAt?: string; username: string } | []>;
 };
 const Home = () => {
   const { loading, data }: { loading: boolean; data: any } = useQuery(
